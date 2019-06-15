@@ -1,0 +1,24 @@
+/*Annelise Trout 6/14/2019*/
+@import url('https://fonts.googleapis.com/css?family=Saira+Semi+Condensed&display=swap');
+* {margin: 0; padding: 0;}
+
+.mobile {display: inline;}
+.desktop {display: none;}
+
+figure img {display: block; margin: 0 auto; max-width: 50%;}
+img {max-width: 100%;}
+.centertext {text-align: center;}
+body {background-color: #097275; font-family: calibri, verdana, sans-serif;}
+
+footer {color: #E2AD38; text-align: center; font-size: 1em; margin-top: 3%;}
+
+/*BEGIN DESKTOP MEDIA QUERY*/
+@media only screen and (min-width: 500px){
+	.desktop {display: inline;}
+	#title-anim {max-height: 50vh; margin: 2% auto; display: block;}
+	
+	figure {text-align: center;}
+	figure img {display: inline; margin: 0; width: 15%; max-width: 100px;}
+	figure img:hover {opacity: 0.7;}
+	footer {font-size: 1.2em; padding: 2%; position: fixed; left: 0; bottom: 0; width: 100%; background: rgba(226,173,56, 0.6);text-align: center;}
+}

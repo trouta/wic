@@ -7,13 +7,17 @@
 
 figure img {display: block; margin: 0 auto; max-width: 50%;}
 img {max-width: 100%;}
+a {color: #024449; text-decoration: underline dotted #E2AD38;}
 .centertext {text-align: center;}
+.italictext {font-style: italic;}
+
 body {background-color: #097275; font-family: calibri, verdana, sans-serif;}
 
 h1 {text-align: center; margin: 2%; font-family: 'Saira Semi Condensed', sans-serif; font-size: 2em; color: #024449;}
 h2 {color: #E2AD38; font-size: 1.5em; margin: 2%; font-family: 'Saira Semi Condensed',}
 p {margin: 2%;}
-	
+
+ul li {list-style-type: square; list-style-position: inside; margin-left: 5%;}
 #main {overflow: auto;}
 
 footer {color: #E2AD38; text-align: center; font-size: 1em; margin-top: 3%;}
@@ -25,7 +29,12 @@ footer {color: #E2AD38; text-align: center; font-size: 1em; margin-top: 3%;}
 	#title-anim {max-height: 50vh; margin: 3% auto; display: block;}
 	
 	figure {text-align: center;}
-	figure img {display: inline; margin: 0; width: 15%; max-width: 100px;}
+	figure img {display: inline; margin: 0; width: 15%;}
+	nav figure img {max-width: 100px;}
 	figure img:hover {opacity: 0.7;}
 	footer {font-size: 1.2em; padding: 0.5%; background: rgba(226,173,56, 0.6);text-align: center;}
+	
+	a:hover {color: #C96D1C;}
+	
+	.twocolumn {float: left; margin: 2%; width: 46%;}
 }

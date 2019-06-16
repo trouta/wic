@@ -10,6 +10,7 @@ img {max-width: 100%;}
 a {color: #024449; text-decoration: underline dotted #E2AD38;}
 .centertext {text-align: center;}
 .italictext {font-style: italic;}
+.orange_text {color: #C96D1C;}
 
 body {background-color: #097275; font-family: calibri, verdana, sans-serif;}
 
@@ -23,6 +24,11 @@ ul li {list-style-type: square; list-style-position: inside; margin-left: 5%;}
 .eboard_member {border: 3px dotted #E2AD38; margin: 3%;}
 footer {color: #E2AD38; text-align: center; font-size: 1em; margin-top: 3%;}
 
+article {background: rgba(226,173,56, 0.6); box-shadow: 5px 10px #C96D1C;}
+article h2 {color: #024449;}
+#community_photos {background: none; box-shadow: none;}
+
+
 /*BEGIN DESKTOP MEDIA QUERY*/
 @media only screen and (min-width: 500px){
 	.mobileonly {display: none;}
@@ -30,8 +36,14 @@ footer {color: #E2AD38; text-align: center; font-size: 1em; margin-top: 3%;}
 	#title-anim {max-height: 50vh; margin: 3% auto; display: block;}
 	#title_container {max-height: 50%; max-width: 50%; margin: auto;}
 	
+	#community_photos section {clear: both; word-wrap: break-word;}
+	#community_photos img {float: left; width: 40%; border: 5px solid #024449; margin-left: 5%; margin-bottom: 2%;}
+	#community_photos p {float: left; width: 45%; border: 5px dotted #E2AD38; margin: 0 2% 2% 2%; padding: 1%;}
+	
 	figure {text-align: center;}
 	figure img {display: inline; margin: 0; width: 15%;}
+
+	
 	nav figure img {max-width: 100px;}
 	figure img:hover {opacity: 0.7;}
 	footer {font-size: 1.2em; padding: 0.5%; background: rgba(226,173,56, 0.6);text-align: center;}
@@ -39,5 +51,5 @@ footer {color: #E2AD38; text-align: center; font-size: 1em; margin-top: 3%;}
 	a:hover {color: #C96D1C;}
 	
 	.twocolumn {float: left; margin: 2%; width: 46%;}
-	.eboard_member {border: 5px dotted #E2AD38; margin: 5% 10%;}
+	.eboard_member {border: 5px dotted #E2AD38; margin: 5% 10%; padding: 1%;}
 }

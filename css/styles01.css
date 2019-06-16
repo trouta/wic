@@ -20,6 +20,7 @@ p {margin: 2%;}
 ul li {list-style-type: square; list-style-position: inside; margin-left: 5%;}
 #main {overflow: auto;}
 
+.eboard_member {border: 3px dotted #E2AD38; margin: 3%;}
 footer {color: #E2AD38; text-align: center; font-size: 1em; margin-top: 3%;}
 
 /*BEGIN DESKTOP MEDIA QUERY*/
@@ -27,6 +28,7 @@ footer {color: #E2AD38; text-align: center; font-size: 1em; margin-top: 3%;}
 	.mobileonly {display: none;}
 	.desktop {display: inline;}
 	#title-anim {max-height: 50vh; margin: 3% auto; display: block;}
+	#title_container {max-height: 50%; max-width: 50%; margin: auto;}
 	
 	figure {text-align: center;}
 	figure img {display: inline; margin: 0; width: 15%;}
@@ -37,4 +39,5 @@ footer {color: #E2AD38; text-align: center; font-size: 1em; margin-top: 3%;}
 	a:hover {color: #C96D1C;}
 	
 	.twocolumn {float: left; margin: 2%; width: 46%;}
+	.eboard_member {border: 5px dotted #E2AD38; margin: 5% 10%;}
 }

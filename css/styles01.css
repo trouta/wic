@@ -24,7 +24,8 @@ ul li {list-style-type: square; list-style-position: inside; margin-left: 5%;}
 .eboard_member {border: 3px dotted #E2AD38; margin: 3%;}
 footer {color: #E2AD38; text-align: center; font-size: 1em; margin-top: 3%;}
 
-.twocolumn {background: rgba(226,173,56, 0.6); box-shadow: 5px 10px #C96D1C;}
+.twocolumn {background: rgba(226,173,56, 0.6); margin: 4%;}
+
 article h2 {color: #024449;}
 section {padding: 2%;}
 #community_photos {background: none; box-shadow: none;}
@@ -51,6 +52,6 @@ section {padding: 2%;}
 	
 	a:hover {color: #C96D1C;}
 	
-	.twocolumn {float: left; margin: 2%; width: 42%;}
+	.twocolumn {box-shadow: 5px 10px #C96D1C; float: left; margin: 2%; width: 42%;}
 	.eboard_member {border: 5px dotted #E2AD38; margin: 5% 10%; padding: 1%;}
 }

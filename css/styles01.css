@@ -1,4 +1,4 @@
-/*Annelise Trout 6/14/2019*/
+/*Annelise Trout 9/25/2019*/
 @import url('https://fonts.googleapis.com/css?family=Saira+Semi+Condensed&display=swap');
 * {margin: 0; padding: 0;}
 
@@ -12,10 +12,10 @@ a {color: #024449; text-decoration: underline dotted #E2AD38;}
 .italictext {font-style: italic;}
 .orange_text {color: #C96D1C;}
 
-body {background-color: #097275; font-family: calibri, verdana, sans-serif;}
+body {background-color: #097275; font-family: calibri, verdana, sans-serif; color: #E2AD38;}
 
 h1 {text-align: center; margin: 2%; font-family: 'Saira Semi Condensed', sans-serif; font-size: 2em; color: #024449;}
-h2 {color: #E2AD38; font-size: 1.5em; margin: 2%; font-family: 'Saira Semi Condensed',}
+h2 {color: #E2AD38; font-size: 1.5em; margin: 2%; font-family: 'Saira Semi Condensed', sans-serif;}
 p {margin: 2%;}
 
 ul li {list-style-type: square; list-style-position: inside; margin-left: 5%;}
@@ -37,21 +37,21 @@ section {padding: 2%;}
 	.desktop {display: inline;}
 	#title-anim {max-height: 50vh; margin: 3% auto; display: block;}
 	#title_container {max-height: 50%; max-width: 50%; margin: auto;}
-	
+
 	#community_photos section {clear: both; word-wrap: break-word;}
 	#community_photos img {float: left; width: 40%; border: 5px solid #024449; margin-left: 5%; margin-bottom: 2%;}
 	#community_photos p {float: left; width: 45%; border: 5px dotted #E2AD38; margin: 0 2% 2% 2%; padding: 1%;}
-	
+
 	figure {text-align: center;}
 	figure img {display: inline; margin: 0; width: 15%;}
 
-	
+
 	nav figure img {max-width: 100px;}
 	figure img:hover {opacity: 0.7;}
-	footer {font-size: 1.2em; padding: 0.5%; background: rgba(226,173,56, 0.6);text-align: center;}
-	
+	footer {font-size: 1.2em; padding: 0.5%; background: rgba(226,173,56, 0.6);text-align: center; color: #024449;}
+
 	a:hover {color: #C96D1C;}
-	
+
 	.twocolumn {box-shadow: 5px 10px #C96D1C; float: left; margin: 2%; width: 42%;}
 	.eboard_member {border: 5px dotted #E2AD38; margin: 5% 10%; padding: 1%;}
 }
